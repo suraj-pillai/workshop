@@ -30,3 +30,5 @@
 ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
 ###   `3.  Enable Schema Registry - Begin Configuration ->  Essentials Package`
 ![](https://drive.google.com/uc?export=view&id=1kgKysbRwcZBlc2yuYyYWK2SUSnNtH9KI)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=1k9hk-Gbs940DAhgpKLide5viBMCQ1yVg)

@@ -26,7 +26,7 @@
 ###   `2.  Create a new environment`
 
 
-![e1](images/environment-2.png)
+![e1](images/environment-1.png)
 
 ![e2](images/environment-2.png)
 

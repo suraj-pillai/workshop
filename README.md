@@ -36,7 +36,7 @@
 
 ![s1](https://drive.google.com/uc?export=view&id=1kgKysbRwcZBlc2yuYyYWK2SUSnNtH9KI "s1")
 
-![s2](img/sr-2.PNG)
+![s2](img/sr-2.png)
 
 ---
 

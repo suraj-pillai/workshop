@@ -104,9 +104,9 @@
 ![tc1](images/topic-2.png)
 
 *   Insert records into tables -
-`INSERT INTO transactions_participant_n (account_id,amount,transaction_type) VALUES ('ACC1',5000,'DEPOSIT');<br>
-INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('ACC1','Suraj','Pillai');
-(change the table names)`
+`INSERT INTO transactions_participant_n (account_id,amount,transaction_type) VALUES ('ACC1',5000,'DEPOSIT');`
+`INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('ACC1','Suraj','Pillai');`
+`(change the table names)`
 *   Check corresponding topics for records
 
 

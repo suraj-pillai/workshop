@@ -25,10 +25,8 @@
 
 ###   `2.  Create a new environment`
 
-![](https://drive.google.com/uc?export=view&id=1bXSO9Gk-gD7BLaKl7VUjeY4J40yYxSBC)
-![](https://drive.google.com/uc?export=view&id=1UJBQQ2yeOcBQPF94kaayfbc8-kMTJCVj)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=1UJBQQ2yeOcBQPF94kaayfbc8-kMTJCVj)
 
 ![](https://drive.google.com/uc?export=view&id=1bXSO9Gk-gD7BLaKl7VUjeY4J40yYxSBC)
 

@@ -42,15 +42,15 @@
 
 ###   `4.  Now Create The Kafka Cluster`
 
-![c1](https://drive.google.com/uc?export=view&id=1C6ZpfJn76NviZqIGc9gND5Xp-_uBts_p "c1")
+![c1](images/cluster-1)
 
-![c2](https://drive.google.com/uc?export=view&id=11sUptKLLke-5Lkq2hd34aJT1DLjMmZJK "c2")
+![c12](images/cluster-12)
 
-![c3](https://drive.google.com/uc?export=view&id=1UmG60UIEEWcZ_23TYB8bB8XyfdACywaZ "c3")
+![c13](images/cluster-13)
 
-![c4](https://drive.google.com/uc?export=view&id=1k6w972T06JEh9ohA78bmXs5VlG8JhLYG "c4")
+![c14](images/cluster-14)
 
-![c5](https://drive.google.com/uc?export=view&id=1uoSyCZ6XQ5vPm5BloPxdn4FXzOwVRonh "c5")
+![c15](images/cluster-5)
 
 ---
 

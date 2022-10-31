@@ -67,6 +67,4 @@
 
 ![k5](images/ksql-5.png)
 
-![k6](images/ksql-6.png)
-
 ---

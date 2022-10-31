@@ -57,16 +57,16 @@
 
 ###   `4.  Now Create KSQLDB Cluster`
 
-![k1](https://drive.google.com/uc?export=view&id=1UXNDU3x8ODAR8NfpydRqrZHnl1MBKTv4 "k1")
+![k1](images/ksql-1.png)
 
-![k2](https://drive.google.com/uc?export=view&id=1O7-OLAiVhNyWHrxDqQ3d0Xrna9dyAz9x "k2")
+![k2](images/ksql-2.png)
 
-![k3](https://drive.google.com/uc?export=view&id=1jc6_et33pwIIQVr08gJnkBwbMe_ebHqE "k3")
+![k3](images/ksql-3.png)
 
-![k4](https://drive.google.com/uc?export=view&id=18Y6m3S9OduWWs3XchX6QWD_jwWJ5dQZD "k4")
+![k4](images/ksql-4.png)
 
-![k5](https://drive.google.com/uc?export=view&id=18Y6m3S9OduWWs3XchX6QWD_jwWJ5dQZD "k5")
+![k5](images/ksql-5.png)
 
-![k6](https://drive.google.com/uc?export=view&id=1cT7nlOKE0cQYiYEu8qaefMS0hl-7fHq0 "k6")
+![k6](images/ksql-6.png)
 
 ---

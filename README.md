@@ -100,5 +100,5 @@
 ###   `5.  Check the CDC data generated in the topic`
 
 ![tc1](images/topic-1.png)
-![tc1](images/topic-1.png)
+![tc1](images/topic-2.png)
 

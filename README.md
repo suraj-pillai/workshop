@@ -77,6 +77,13 @@
 *   Password - Same as above
 *   Tables - transactions_participant_n, accounts_participant_n (replace with your participant number, for example - participant_1)
 
-![k1](images/ksql-1.png)
+![cn1](images/connector-1.png)
+![cn2](images/connector-2.png)
+![cn3](images/connector-3.png)
+![cn4](images/connector-4.png)
+![cn5](images/connector-5.png)
+![cn6](images/connector-6.png)
+![cn7](images/connector-7.png)
+![cn8](images/connector-8.png)
 
 

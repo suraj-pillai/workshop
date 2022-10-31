@@ -46,3 +46,16 @@
 ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
 ![](https://drive.google.com/uc?export=view&id=1uoSyCZ6XQ5vPm5BloPxdn4FXzOwVRonh)
 ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+
+⚛
+###   `4.  Now Create KSQLDB Cluster`
+![](https://drive.google.com/uc?export=view&id=1UXNDU3x8ODAR8NfpydRqrZHnl1MBKTv4)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=1O7-OLAiVhNyWHrxDqQ3d0Xrna9dyAz9x)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=1jc6_et33pwIIQVr08gJnkBwbMe_ebHqE)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=18Y6m3S9OduWWs3XchX6QWD_jwWJ5dQZD)
+
+![](https://drive.google.com/uc?export=view&id=1cT7nlOKE0cQYiYEu8qaefMS0hl-7fHq0)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶

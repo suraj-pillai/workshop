@@ -24,9 +24,9 @@
 
 
 ###   `2.  Create a new environment`
-![](./images/environment-1.jpg "")
+![](./images/environment-1.jpg)
 ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
-![](./images/environment-2.jpg "")
+![](./images/environment-2.jpg)
 ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
 ###   `3.  Enable Schema Registry - Begin Configuration ->  Essentials Package`
 ![](https://drive.google.com/uc?export=view&id=1kgKysbRwcZBlc2yuYyYWK2SUSnNtH9KI)

@@ -38,6 +38,8 @@
 
 ![](https://drive.google.com/uc?export=view&id=1kgKysbRwcZBlc2yuYyYWK2SUSnNtH9KI)
 
+---
+
 ![](https://drive.google.com/uc?export=view&id=1k9hk-Gbs940DAhgpKLide5viBMCQ1yVg)
 
 ---
@@ -46,19 +48,20 @@
 
 ![](https://drive.google.com/uc?export=view&id=1C6ZpfJn76NviZqIGc9gND5Xp-_uBts_p)
 
-
+---
 
 ![](https://drive.google.com/uc?export=view&id=11sUptKLLke-5Lkq2hd34aJT1DLjMmZJK)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
 
 ![](https://drive.google.com/uc?export=view&id=1UmG60UIEEWcZ_23TYB8bB8XyfdACywaZ)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
 
 ![](https://drive.google.com/uc?export=view&id=1k6w972T06JEh9ohA78bmXs5VlG8JhLYG)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
+
 ![](https://drive.google.com/uc?export=view&id=1uoSyCZ6XQ5vPm5BloPxdn4FXzOwVRonh)
 
 ---
@@ -68,23 +71,23 @@
 
 ![](https://drive.google.com/uc?export=view&id=1UXNDU3x8ODAR8NfpydRqrZHnl1MBKTv4)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
 
 ![](https://drive.google.com/uc?export=view&id=1O7-OLAiVhNyWHrxDqQ3d0Xrna9dyAz9x)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
 
 ![](https://drive.google.com/uc?export=view&id=1jc6_et33pwIIQVr08gJnkBwbMe_ebHqE)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
 
 ![](https://drive.google.com/uc?export=view&id=18Y6m3S9OduWWs3XchX6QWD_jwWJ5dQZD)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
 
 ![](https://drive.google.com/uc?export=view&id=18Y6m3S9OduWWs3XchX6QWD_jwWJ5dQZD)
 
-▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+---
 
 ![](https://drive.google.com/uc?export=view&id=1cT7nlOKE0cQYiYEu8qaefMS0hl-7fHq0)
 

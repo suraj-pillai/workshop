@@ -72,10 +72,11 @@
 ###   `5.  Create The MySQL CDC Connector`
 *   Host name - globestreamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com
 *   Port - 3306
+*   DB Name - cdcdb
 *   User Name - participant_n (replace with your participant number, for example - participant_1)
-*   Passpword - Same as above
+*   Password - Same as above
 *   Tables - transactions_participant_n, accounts_participant_n (replace with your participant number, for example - participant_1)
 
-
+![k1](images/ksql-1.png)
 
 

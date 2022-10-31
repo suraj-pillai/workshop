@@ -32,3 +32,17 @@
 ![](https://drive.google.com/uc?export=view&id=1kgKysbRwcZBlc2yuYyYWK2SUSnNtH9KI)
 ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
 ![](https://drive.google.com/uc?export=view&id=1k9hk-Gbs940DAhgpKLide5viBMCQ1yVg)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+
+###   `4.  Now Create The Kafka Cluster`
+
+![](https://drive.google.com/uc?export=view&id=1C6ZpfJn76NviZqIGc9gND5Xp-_uBts_p)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=11sUptKLLke-5Lkq2hd34aJT1DLjMmZJK)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=1UmG60UIEEWcZ_23TYB8bB8XyfdACywaZ)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=1k6w972T06JEh9ohA78bmXs5VlG8JhLYG)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+![](https://drive.google.com/uc?export=view&id=1uoSyCZ6XQ5vPm5BloPxdn4FXzOwVRonh)
+▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶

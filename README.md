@@ -42,15 +42,15 @@
 
 ###   `4.  Now Create The Kafka Cluster`
 
-![c1](images/cluster-1)
+![c1](images/cluster-1.png)
 
-![c12](images/cluster-12)
+![c12](images/cluster-12.png)
 
-![c13](images/cluster-13)
+![c13](images/cluster-13.png)
 
-![c14](images/cluster-14)
+![c14](images/cluster-14.png)
 
-![c15](images/cluster-5)
+![c15](images/cluster-5.png)
 
 ---
 

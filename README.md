@@ -180,6 +180,24 @@ aggregate data to show the number of transactions done in a 5 min period.
 *  Password - participant_n (replace n with your participant id)
 *  Collection - transaction_view_participant_n (replace n with your participant id)
 
+![cn10](images/connector-10.png)
+
+![cn11](images/connector-11.png)
+
+![cn12](images/connector-12.png)
+
+![cn13](images/connector-13.png)
+
+![cn14](images/connector-14.png)
+
+![cn15](images/connector-15.png)
+
+![cn16](images/connector-16.png)
+
+![cn17](images/connector-17.png)
+
+![cn18](images/connector-18.png)
+
 ---
 
 ###   `9.  Observe the data pipeline`

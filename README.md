@@ -216,6 +216,8 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 ###   `9.  Observe the data pipeline`
 
+*  Insert records in RDS(MySQL) and subsequently observe your MongoDB collection
+
 ---
 
 ###   `10.  Bonus section - to be done by the instructor`

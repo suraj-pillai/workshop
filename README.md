@@ -198,6 +198,18 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 ![cn18](images/connector-18.png)
 
+![cn19](images/connector-19.png)
+
+*  Execute the following command to check data in MongoDB -     
+
+`mongosh "mongodb+srv://mongostreaming.whrwcfn.mongodb.net/mongodb" --apiVersion 1 --username participant_n`.    
+`(replace participant_n username with your participant id)`   
+
+`enter the password (provided above)`   
+
+`execute ->    db.transaction_view_participant_n.find()`.    
+`(replace participant_n above with your participant id)` 
+
 ---
 
 ###   `9.  Observe the data pipeline`

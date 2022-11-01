@@ -127,7 +127,7 @@
 
 ![k9](images/ksql-9.png) 
 
-*** `Change the topic name below as appropriate`     
+`Change the topic name below as appropriate`     
 
 `create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_1', value_format='avro');`    
 
@@ -146,6 +146,8 @@
 
 `select * from transactions_360_tbl emit changes;`     
 `(This will show the joined data between transactions and account - transactions will also contain a first name and a last name. "Stop" the query once done)` 
+
+`create table transactions_by_accounts_tbl with (kafka_topic='transactions_by_accounts', format='json') as select account_id, transaction_type ,count(*) as cnt from transactions_stream window tumbling (size 5 minutes) group by account_id,transaction_type;`
 
 ---
 

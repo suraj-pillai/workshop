@@ -134,7 +134,7 @@ create transactions stream.
 `create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_1', value_format='avro');`    
 
 
-create new stream based on DEPOSIT/WITHDRAWAL.  
+create new stream based on DEPOSIT/WITHDRAWAL. Also, ignore deletes in the DB table.
 `create stream transaction_type_check_stream with (kafka_topic='transaction_type_check', format='json') as select account_id, case when transaction_type = 'DEPOSIT' then amount else -amount end as amount from transactions_stream where __DELETED = 'false' EMIT CHANGES;`    
 
 

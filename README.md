@@ -208,7 +208,9 @@ aggregate data to show the number of transactions done in a 5 min period.
 `enter the password (provided above)`   
 
 `execute ->    db.transaction_view_participant_n.find()`    
-`(Replace participant_n above with your participant id. This will show you the documents updated in MongoDB)` 
+`(Replace participant_n above with your participant id. This will show you the documents updated in MongoDB)`      
+
+`To find details about a particular account id, you could use - db.transaction_view_participant_1.find({ACCOUNT_ID:"ACC1"})`
 
 ---
 

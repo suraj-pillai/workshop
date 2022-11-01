@@ -115,7 +115,37 @@
 
 ---
 
-###   `7.  Create the ksqlDB App streams/tables`
+###   `7.  Create the ksqlDB App streams/tables` 
+*   Navigate to the ksqlDB App Editor
+
+![k6](images/ksql-6.png)
+
+![k7](images/ksql-7.png)
+
+*   Enter the commands -   
+![k8](images/ksql-8.png) 
+
+![k9](images/ksql-9.png) 
+
+`Change the topic name below as appropriate`     
+
+`create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_1', value_format='avro');`    
+
+`create stream transaction_type_check_stream with (kafka_topic='transaction_type_check', format='json') as select account_id, case when transaction_type = 'DEPOSIT' then amount else -amount end as amount from transactions_stream where __DELETED = 'false' EMIT CHANGES;`    
+
+`create table account_balance_tbl with (kafka_topic='account_balance', format='json') as select account_id, sum(amount) as account_balance from transaction_type_check_stream as account_balance group by account_id emit changes;`     
+
+`select * from account_balance_tbl emit CHANGES;`    
+`(This will show the balance for the account. "Stop" the query once done)`    
+
+`create stream accounts_stream with (kafka_topic='dbdata.cdcdb.accounts_participant_1', value_format='avro');`    
+
+`create table accounts_tbl with (kafka_topic='account_details', format='json') as select account_id, latest_by_offset(first_name) first_name,latest_by_offset(last_name) last_name from accounts_stream as account_balance group by account_id emit changes;`     
+
+`create table transactions_360_tbl with (kafka_topic='transactions_view', value_format='avro', key_format='avro') as select a.account_id a_account_id, as_value(a.account_id) account_id,account_balance, first_name, last_name from account_balance_tbl  a inner join accounts_tbl b on a.account_id=b.account_id;`      
+
+`select * from transactions_360_tbl emit changes;`     
+`(This will show the joined data between transactions and account - transactions will also contain a first name and a last name. "Stop" the query once done)` 
 
 ---
 

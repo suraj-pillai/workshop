@@ -173,6 +173,12 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 ###   `8.  Create The MongoDB Sink Connector`
 
+*  Hostname - mongostreaming.whrwcfn.mongodb.net
+*  DB Name - mongodb
+*  Username - participant_n (replace n with your participant id)
+*  Password - participant_n (replace n with your participant id)
+*  Collection - transaction_view_participant_n (replace n with your participant id)
+
 ---
 
 ###   `9.  Observe the data pipeline`

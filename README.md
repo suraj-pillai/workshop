@@ -127,7 +127,7 @@
 
 ![k9](images/ksql-9.png) 
 
-`Change the topic name below as appropriate`     
+*** `Change the topic name below as appropriate`     
 
 `create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_1', value_format='avro');`    
 

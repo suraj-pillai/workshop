@@ -129,7 +129,7 @@
 
 `Change the topic name below as appropriate`     
 
-#### create transactions stream
+<!-- create transactions stream -->
 `create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_1', value_format='avro');`    
 
 `create stream transaction_type_check_stream with (kafka_topic='transaction_type_check', format='json') as select account_id, case when transaction_type = 'DEPOSIT' then amount else -amount end as amount from transactions_stream where __DELETED = 'false' EMIT CHANGES;`    

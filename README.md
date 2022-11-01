@@ -97,7 +97,7 @@
 
 ---
 
-###   `5.  Check the CDC data generated in the topic`
+###   `6.  Check the CDC data generated in the topic`
 
 ![tc1](images/topic-1.png)
 
@@ -113,4 +113,19 @@
 
 *   Check corresponding topics for records
 
+---
+
+###   `7.  Create the ksqlDB App streams/tables`
+
+---
+
+###   `8.  Create The MongoDB Sink Connector`
+
+---
+
+###   `9.  Observe the data pipeline`
+
+---
+
+###   `10.  Bonus section - to be done by the instructor`
 

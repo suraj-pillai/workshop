@@ -1,10 +1,12 @@
 # Prerequisites
-*   Access to RDS (MySQL)
-*   A client to access RDS (MySQL)
-*   Access to MongoDB Atlas
-*   [Install mongosh](https://www.mongodb.com/docs/mongodb-shell/install/) 
+
+*   Access to RDS (MySQL - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com   Port:3306)
+*   A client to access RDS (DBeaver or equivalent which can connect to a MySQL DB; you may need to download MySQL drivers)
+*   Access to MongoDB Atlas (mongostreaming.whrwcfn.mongodb.net)
+*   Access to Confluent Cloud
 *   [Create a Confluent Cloud account](https://www.confluent.io/confluent-cloud/tryfree/)
-*   Ability to execute *curl* command. If curl is not available, please install it
+*   [Install mongosh](https://www.mongodb.com/docs/mongodb-shell/install/) 
+*   Ability to execute curl command. If curl is not available, please install it
 *   [Install Confluent CLI](https://docs.confluent.io/confluent-cli/current/install.html#install-confluent-cli)
 
 
@@ -71,7 +73,7 @@
 ---
 
 ###   `5.  Create The MySQL CDC Connector`
-*   Host name - globestreamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com
+*   Host name - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com
 *   Port - 3306
 *   DB Name - cdcdb
 *   User Name - participant_n (replace with your participant number, for example - participant_1)

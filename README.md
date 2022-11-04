@@ -109,13 +109,15 @@
 
 *   Insert records into tables -  
 
-In case you do not have RDS client, this will be done by the Instructor  
+```diff
+- In case you do not have RDS client installed the following steps would be executed by the instructor.
+``` 
 
 `INSERT INTO transactions_participant_n (account_id,amount,transaction_type) VALUES ('ACC1',5000,'DEPOSIT');`      
 
 `INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('ACC1','Suraj','Pillai');`                   
 
-`(change the table names)`      
+`(change the table names to reflect your participant id)`      
 
 *   Check corresponding topics for records
 

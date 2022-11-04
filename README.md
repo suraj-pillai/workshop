@@ -5,7 +5,10 @@
 # <div align="center">Real-Time Data Streaming Pipeline</div>
 ## <div align="center">Lab Guide</div>
 
-    > **Note**:
+1. Now that you have an environment, let's create a cluster. Select **Create Cluster**.
+    > **Note**: Confluent Cloud clusters are available in 3 types: **Basic**, 
+
+
 # Prerequisites
 
 *   Access to RDS (MySQL - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com   Port:3306)
@@ -16,6 +19,12 @@
 *   [Install mongosh, (to access mongodb)](https://www.mongodb.com/docs/mongodb-shell/install/) 
 *   Ability to execute curl command. If curl is not available, please install it
 *   [Install Confluent CLI](https://docs.confluent.io/confluent-cli/current/install.html#install-confluent-cli)
+
+---
+
+# Objective
+
+In this workshop you will learn how Confluent Cloud can enable you to quickly and easily stand up a streaming ETL pipeline. During this workshop you’ll get hands-on experience with building out an end-to-end ETL pipeline; from extracting & loading data from out-of-the-box source & target systems with connectors to transforming the data in real-time with ksqlDB all in Confluent Cloud. The source in this case is a MySQL instance which contains Bank Account and Transaction details. You will stream this data into Confluent Cloud, apply transformations on the data using ksqlDB and finally load the transformed data into MongoDB 
 
 ---
 

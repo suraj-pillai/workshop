@@ -207,7 +207,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 ![cn19](images/connector-19.png)
 
 *  Execute the following command to check data in MongoDB -     
-
+<!--
 ```diff
 - text in red
 + text in green
@@ -215,11 +215,11 @@ aggregate data to show the number of transactions done in a 5 min period.
 # text in gray
 @@ text in purple (and bold)@@
 ```
+-->
 
-- ![#f03c15]() `sometext`
-- - ![someother]() `#f03c15`
-
-$${\color{red}_**In \space case \space you \space do \space not \space have \space mongosh \space installed \space, \space this \space will \space be \space done \space by \space the \space Instructor**_}$$
+```diff
+- In case you do not have mongosh installed the following steps would be executed by the instructor.
+```
 
 `mongosh "mongodb+srv://mongostreaming.whrwcfn.mongodb.net/mongodb" --apiVersion 1 --username participant_n`.    
 `(replace participant_n username with your participant id)`   

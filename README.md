@@ -143,7 +143,7 @@
 ``` 
 
 ```diff
-- (change the table names below to reflect your participant id)`      
+ (change the table names below to reflect your participant id)`      
 ```
     
 ```sql
@@ -171,7 +171,7 @@ INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('AC
 ![k9](images/ksql-9.png) 
 
 ```diff
-- Change the topic name (dbdata.cdcdb.transactions_participant_n) below with your participant id  
+Change the topic name (dbdata.cdcdb.transactions_participant_n) below with your participant id  
 ```
     
 create transactions stream.

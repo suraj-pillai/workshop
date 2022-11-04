@@ -208,7 +208,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 *  Execute the following command to check data in MongoDB -     
 
-> _**In case you do not have mongosh installed, this will be done by the Instructor**_      
+> <span style="color:blue">_**In case you do not have mongosh installed, this will be done by the Instructor**_ </spam>     
 
 `mongosh "mongodb+srv://mongostreaming.whrwcfn.mongodb.net/mongodb" --apiVersion 1 --username participant_n`.    
 `(replace participant_n username with your participant id)`   

@@ -223,7 +223,8 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 | `Username`           | participant_n (replace n with your participant id)            |
 | `Password`    | participant_n (replace n with your participant id)           |
 | `Collection` | transaction_view_participant_n (replace n with your participant id)              |   
-</div>
+</div>     
+    
 ```diff
 -   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
 ```

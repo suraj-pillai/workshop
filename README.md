@@ -10,7 +10,7 @@
 
 
 # Prerequisites
-
+> :
 *   Access to RDS (MySQL - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com   Port:3306)
 *   A client to access RDS (DBeaver or equivalent which can connect to a MySQL DB; you may need to download MySQL 8.0 drivers)
 *   Access to MongoDB Atlas (mongostreaming.whrwcfn.mongodb.net)

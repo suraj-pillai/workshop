@@ -5,12 +5,9 @@
 # <div align="center">Real-Time Data Streaming Pipeline</div>
 ## <div align="center">Lab Guide</div>
 
-1. Now that you have an environment, let's create a cluster. Select **Create Cluster**.
-    > **Note**: Confluent Cloud clusters are available in 3 types: **Basic**, 
-
 
 # Prerequisites
-> :
+
 *   Access to RDS (MySQL - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com   Port:3306)
 *   A client to access RDS (DBeaver or equivalent which can connect to a MySQL DB; you may need to download MySQL 8.0 drivers)
 *   Access to MongoDB Atlas (mongostreaming.whrwcfn.mongodb.net)

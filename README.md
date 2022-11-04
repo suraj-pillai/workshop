@@ -78,6 +78,7 @@
 *   DB Name - cdcdb
 *   User Name - participant_n (replace with your participant number, for example - participant_1)
 *   Password - Same as above
+*   In case you do not have the Mongosh and RDS clients installed please use participant_0 as username and password
 *   Tables - transactions_participant_n, accounts_participant_n (replace with your participant number, for example - participant_1)
 
 ![cn1](images/connector-1.png)
@@ -180,6 +181,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 *  DB Name - mongodb
 *  Username - participant_n (replace n with your participant id)
 *  Password - participant_n (replace n with your participant id)
+*  In case you do not have the Mongosh and RDS clients installed please use participant_0 as username and password
 *  Collection - transaction_view_participant_n (replace n with your participant id)
 
 ![cn10](images/connector-10.png)

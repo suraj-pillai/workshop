@@ -5,7 +5,7 @@
 # <div align="center">Real-Time Data Streaming Pipeline</div>
 ## <div align="center">Lab Guide</div>
 
-> # **Prerequisites**:
+    > **Note**:
 # Prerequisites
 
 *   Access to RDS (MySQL - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com   Port:3306)
@@ -323,7 +323,7 @@ To find details about a particular account id, you could use - db.transaction_vi
 
 ---
 
-###   <a name="step-10">`11.  Bonus section - to be done by the instructor`
+###   <a name="step-11">`11.  Bonus section - to be done by the instructor`
     
 *   Check the Stream Lineage
 *   Send invalid data to a topic and observe behavior

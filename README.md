@@ -208,7 +208,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 *  Execute the following command to check data in MongoDB -     
 
-<span style="color:blue">some *This is Blue italic.* text</span>
+$${\color{red}Red}$$
 
 > <span style="color:blue">_**In case you do not have mongosh installed, this will be done by the Instructor**_ </spam>     
 

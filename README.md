@@ -313,7 +313,7 @@ To find details about a particular account id, you could use - db.transaction_vi
 
 *  Insert records in RDS(MySQL) and subsequently observe your MongoDB collection
 ```diff
--  In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+-  In case you do not have the mongosh and RDS client installed the instructor will make changes to the DB and show the pipeline
 -  You can still use ksqlDB and topics UI to verify the data following
 ```
 

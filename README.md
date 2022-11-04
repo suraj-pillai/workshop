@@ -1,3 +1,7 @@
+<div align="center" padding=25px>
+    <img src="images/confluent.png" width=50% height=50%>
+</div>
+
 # Prerequisites
 
 *   Access to RDS (MySQL - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com   Port:3306)

@@ -2,6 +2,9 @@
     <img src="images/confluent.png" width=50% height=50%>
 </div>
 
+# <div align="center">Real-Time Data Streaming Pipeline</div>
+## <div align="center">Lab Guide</div>
+
 > # **Prerequisites**:
 # Prerequisites
 
@@ -35,6 +38,7 @@
 1. [Create ksqlDB Streams/Tables(MySQL CDC)](#step-8)
 1. [Create MongoDB Sink connector](#step-9)
 1. [Observe the data pipeline](#step-10)
+1. [Bonus section (To be done by the instructor)](#step-11)
 
 
 ---
@@ -319,5 +323,8 @@ To find details about a particular account id, you could use - db.transaction_vi
 
 ---
 
-###   `11.  Bonus section - to be done by the instructor`
+###   <a name="step-10">`11.  Bonus section - to be done by the instructor`
+    
+*   Check the Stream Lineage
+*   Send invalid data to a topic and observe behavior
 

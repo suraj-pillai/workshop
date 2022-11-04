@@ -78,7 +78,9 @@
 *   DB Name - cdcdb
 *   User Name - participant_n (replace with your participant number, for example - participant_1)
 *   Password - Same as above
-*   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+```diff
+-   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+```
 *   Tables - transactions_participant_n, accounts_participant_n (replace with your participant number, for example - participant_1)
 
 ![cn1](images/connector-1.png)

@@ -107,6 +107,7 @@
     
 ```diff
 -   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+```
 
 
 ![cn1](images/connector-1.png)

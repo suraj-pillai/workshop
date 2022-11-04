@@ -78,7 +78,7 @@
 *   DB Name - cdcdb
 *   User Name - participant_n (replace with your participant number, for example - participant_1)
 *   Password - Same as above
-*   In case you do not have the Mongosh and RDS clients installed please use participant_0 as username and password
+*   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
 *   Tables - transactions_participant_n, accounts_participant_n (replace with your participant number, for example - participant_1)
 
 ![cn1](images/connector-1.png)
@@ -107,7 +107,9 @@
 
 ![tc1](images/topic-2.png)
 
-*   Insert records into tables -      
+*   Insert records into tables -  
+
+In case you do not have RDS client, this will be done by the Instructor  
 
 `INSERT INTO transactions_participant_n (account_id,amount,transaction_type) VALUES ('ACC1',5000,'DEPOSIT');`      
 
@@ -181,7 +183,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 *  DB Name - mongodb
 *  Username - participant_n (replace n with your participant id)
 *  Password - participant_n (replace n with your participant id)
-*  In case you do not have the Mongosh and RDS clients installed please use participant_0 as username and password
+*  In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
 *  Collection - transaction_view_participant_n (replace n with your participant id)
 
 ![cn10](images/connector-10.png)
@@ -205,6 +207,8 @@ aggregate data to show the number of transactions done in a 5 min period.
 ![cn19](images/connector-19.png)
 
 *  Execute the following command to check data in MongoDB -     
+
+In case you do not have mongosh installed, this will be done by the Instructor      
 
 `mongosh "mongodb+srv://mongostreaming.whrwcfn.mongodb.net/mongodb" --apiVersion 1 --username participant_n`.    
 `(replace participant_n username with your participant id)`   

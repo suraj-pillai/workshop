@@ -24,22 +24,27 @@
 
 # Steps
 
-1. [Create Environment](#step-1)
-1. [Enable Schema Registry](#step-2)
+1. [Sign-in to Confluent Cloud](#step-1)
+1. [Create Environment](#step-2)
+1. [Enable Schema Registry](#step-3)
+1. [Create Kafka cluster](#step-4)
+1. [Create ksqlDB App](#step-5)
+1. [Create Source Connector(MySQL CDC)](#step-6)
+1. [Check CDC Data](#step-7)
+1. [Create ksqlDB Streams/Tables(MySQL CDC)](#step-8)
+1. [Create MongoDB Sink connector](#step-9)
+1. [Observe the data pipeline](#step-10)
+
+
+---
+
+###   <a name="step-1">`1.  Sign-in using - https://confluent.cloud/login`
 
 
 ---
 
 
-# Setup Cluster
-
-###   `1.  Sign-in using - https://confluent.cloud/login`
-
-
----
-
-
-###   <a name="step-1">`2.  Create a new environment`
+###   <a name="step-2">`2.  Create a new environment`
 
 
 ![e1](images/environment-1.png)
@@ -48,7 +53,7 @@
 
 ---
 
-###   <a name="step-2">`3.  Enable Schema Registry - Begin Configuration ->  Essentials Package`
+###   <a name="step-3">`3.  Enable Schema Registry - Begin Configuration ->  Essentials Package`
 
 ![s1](images/sr-1.png)
 
@@ -56,7 +61,7 @@
 
 ---
 
-###   `4.  Now Create The Kafka Cluster`
+###   <a name="step-4">`4.  Now Create The Kafka Cluster`
 
 ![c1](images/cluster-1.png)
 
@@ -71,7 +76,7 @@
 ---
 
 
-###   `4.  Now Create The KSQLDB Cluster`
+###   <a name="step-5">`5.  Now Create The KSQLDB App`
 
 ![k1](images/ksql-1.png)
 
@@ -85,7 +90,7 @@
 
 ---
 
-###   `5.  Create The MySQL CDC Connector`
+###   <a name="step-6">`6.  Create The MySQL CDC Connector`
 *   Host name - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com
 *   Port - 3306
 *   DB Name - cdcdb
@@ -116,7 +121,7 @@
 
 ---
 
-###   `6.  Check the CDC data generated in the topic`
+###   <a name="step-7">`7.  Check the CDC data generated in the topic`
 
 ![tc1](images/topic-1.png)
 
@@ -138,7 +143,7 @@
 
 ---
 
-###   `7.  Create the ksqlDB App streams/tables` 
+###   <a name="step-8">`8.  Create the ksqlDB App streams/tables` 
 *   Navigate to the ksqlDB App Editor
 
 ![k6](images/ksql-6.png)
@@ -194,7 +199,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 ---
 
-###   `8.  Create The MongoDB Sink Connector`
+###   <a name="step-9">`9.  Create The MongoDB Sink Connector`
 
 *  Hostname - mongostreaming.whrwcfn.mongodb.net
 *  DB Name - mongodb
@@ -252,7 +257,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 ---
 
-###   `9.  Observe the data pipeline`
+###   <a name="step-10">`10.  Observe the data pipeline`
 
 *  Insert records in RDS(MySQL) and subsequently observe your MongoDB collection
 ```diff
@@ -262,5 +267,5 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 ---
 
-###   `10.  Bonus section - to be done by the instructor`
+###   `11.  Bonus section - to be done by the instructor`
 

@@ -210,7 +210,7 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 $${\color{red}Red}$$
 
-> <span style="color:blue">_**In case you do not have mongosh installed, this will be done by the Instructor**_ </spam>     
+> $${\color{red}_**In case you do not have mongosh installed, this will be done by the Instructor**_}$$ 
 
 `mongosh "mongodb+srv://mongostreaming.whrwcfn.mongodb.net/mongodb" --apiVersion 1 --username participant_n`.    
 `(replace participant_n username with your participant id)`   

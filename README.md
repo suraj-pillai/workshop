@@ -187,7 +187,9 @@ aggregate data to show the number of transactions done in a 5 min period.
 *  DB Name - mongodb
 *  Username - participant_n (replace n with your participant id)
 *  Password - participant_n (replace n with your participant id)
-*  In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+```diff
+-   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+```
 *  Collection - transaction_view_participant_n (replace n with your participant id)
 
 ![cn10](images/connector-10.png)

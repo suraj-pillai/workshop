@@ -142,12 +142,18 @@
 - In case you do not have RDS client installed the following steps would be executed by the instructor.
 ``` 
 
-`INSERT INTO transactions_participant_n (account_id,amount,transaction_type) VALUES ('ACC1',5000,'DEPOSIT');`      
-
-`INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('ACC1','Suraj','Pillai');`                   
-
-`(change the table names to reflect your participant id)`      
-
+```diff
+- (change the table names below to reflect your participant id)`      
+```
+    
+```sql
+INSERT INTO transactions_participant_n (account_id,amount,transaction_type) VALUES ('ACC1',5000,'DEPOSIT');      
+```
+ 
+```sql 
+INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('ACC1','Suraj','Pillai');
+```
+    
 *   Check corresponding topics for records
 
 ---
@@ -165,12 +171,12 @@
 ![k9](images/ksql-9.png) 
 
 ```diff
-- Change the topic name below as appropriate     
+- Change the topic name (dbdata.cdcdb.transactions_participant_n) below with your participant id  
 ```
     
 create transactions stream.
 ```sql
-`create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_1', value_format='avro');`    
+`create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_n', value_format='avro');`    
 ```
 
     
@@ -282,22 +288,23 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 - In case you do not have mongosh installed the following steps would be executed by the instructor.
 ```
 
+```diff
+- (replace participant_n username below with your participant id)
+- (password is same as participant id)
+```
+
 ```sql
 mongosh "mongodb+srv://mongostreaming.whrwcfn.mongodb.net/mongodb" --apiVersion 1 --username participant_n    
 ```
-`(replace participant_n username with your participant id)`   
-
-`enter the password (provided above)`   
 
     
 ```sql
 execute ->    db.transaction_view_participant_n.find()   
 ```
-`(Replace participant_n above with your participant id. This will show you the documents updated in MongoDB)`      
-
+    
     
 ```sql
-To find details about a particular account id, you could use - db.transaction_view_participant_1.find({ACCOUNT_ID:"ACC1"})
+To find details about a particular account id, you could use - db.transaction_view_participant_n.find({ACCOUNT_ID:"ACC1"})
 ```
     
 ---

@@ -242,6 +242,10 @@ aggregate data to show the number of transactions done in a 5 min period.
 ###   `9.  Observe the data pipeline`
 
 *  Insert records in RDS(MySQL) and subsequently observe your MongoDB collection
+```diff
+-   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+-   You can still use ksqlDB and topics UI to verify the data following
+```
 
 ---
 

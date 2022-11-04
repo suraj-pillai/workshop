@@ -44,7 +44,8 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 1. [Create ksqlDB Streams/Tables(MySQL CDC)](#step-8)
 1. [Create MongoDB Sink connector](#step-9)
 1. [Observe the data pipeline](#step-10)
-1. [Bonus section (To be done by the instructor)](#step-11)
+1. [Visualize the data pipeline](#step-11)
+1. [Bonus section (To be done by the instructor)](#step-12)
 
 
 ---
@@ -323,12 +324,12 @@ To find details about a particular account id, you could use - db.transaction_vi
 *  Insert records in RDS(MySQL) and subsequently observe your MongoDB collection
 ```diff
 -  In case you do not have the mongosh and RDS client installed the instructor will make changes to the DB and show the pipeline
--  You can still use ksqlDB and topics UI to verify the data following
+-  You can still use ksqlDB and topics UI to verify the data flow
 ```
 
 ---
 
-###   <a name="step-11">`11.  Check Stream Lineage`
+###   <a name="step-11">`11.  Visualize the data pipeline`
  
 View how data flows through the pipeline
     

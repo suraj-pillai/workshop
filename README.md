@@ -208,7 +208,16 @@ aggregate data to show the number of transactions done in a 5 min period.
 
 *  Execute the following command to check data in MongoDB -     
 
-<span style="color:blue">some *This is Blue italic.* text</span>
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
+- ![#f03c15]() `sometext`
+- - ![someother]() `#f03c15`
 
 $${\color{red}_**In \space case \space you \space do \space not \space have \space mongosh \space installed \space, \space this \space will \space be \space done \space by \space the \space Instructor**_}$$
 

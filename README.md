@@ -299,8 +299,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 ```
 
 ```diff
-- (replace participant_n username below with your participant id)
-- (password is same as participant id)
+- (replace participant_n username below with your participant id,  password is same as participant id)
 ```
 
 ```sql
@@ -329,8 +328,17 @@ To find details about a particular account id, you could use - db.transaction_vi
 
 ---
 
-###   <a name="step-11">`11.  Bonus section - to be done by the instructor`
+###   <a name="step-11">`11.  Check Stream Lineage`
+ 
+View how data flows through the pipeline
     
-*   Check the Stream Lineage
+![l1](images/lineage-1.png)
+    
+![l2](images/lineage-2.png)
+    
+---
+    
+###   <a name="step-12">`12.  Bonus section - to be done by the instructor`
+  
 *   Send invalid data to a topic and observe behavior
 

@@ -157,8 +157,10 @@
 
 `Change the topic name below as appropriate`     
 
-create transactions stream.  
+create transactions stream.
+```sql
 `create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_1', value_format='avro');`    
+```
 
 
 create new stream based on DEPOSIT/WITHDRAWAL. Also, ignore deletes in the DB table.

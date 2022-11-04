@@ -106,7 +106,7 @@
 </div>     
     
 ```diff
--In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+- In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
 ```
 
 
@@ -143,7 +143,7 @@
 ``` 
 
 ```diff
- (change the table names below to reflect your participant id)`      
+- (change the table names below to reflect your participant id)`      
 ```
     
 ```sql
@@ -171,7 +171,7 @@ INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('AC
 ![k9](images/ksql-9.png) 
 
 ```diff
-Change the topic name (dbdata.cdcdb.transactions_participant_n) below with your participant id  
+- Change the topic name (dbdata.cdcdb.transactions_participant_n) below with your participant id  
 ```
     
 create transactions stream.
@@ -250,7 +250,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 </div>     
     
 ```diff
--   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+-  In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
 ```
 
 ![cn10](images/connector-10.png)
@@ -313,8 +313,8 @@ To find details about a particular account id, you could use - db.transaction_vi
 
 *  Insert records in RDS(MySQL) and subsequently observe your MongoDB collection
 ```diff
--   In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
--   You can still use ksqlDB and topics UI to verify the data following
+-  In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+-  You can still use ksqlDB and topics UI to verify the data following
 ```
 
 ---

@@ -13,6 +13,7 @@
 *   Ability to execute curl command. If curl is not available, please install it
 *   [Install Confluent CLI](https://docs.confluent.io/confluent-cli/current/install.html#install-confluent-cli)
 
+---
 
 # Architecture
 
@@ -21,8 +22,16 @@
 
 ---
 
+# Steps
 
-# Setup Clusters
+1. [Create Environment](#step-1)
+1. [Enable Schema Registry](#step-2)
+
+
+---
+
+
+# Setup Cluster
 
 ###   `1.  Sign-in using - https://confluent.cloud/login`
 
@@ -30,7 +39,7 @@
 ---
 
 
-###   `2.  Create a new environment`
+###   <a name="step-1">`2.  Create a new environment`
 
 
 ![e1](images/environment-1.png)
@@ -39,7 +48,7 @@
 
 ---
 
-###   `3.  Enable Schema Registry - Begin Configuration ->  Essentials Package`
+###   <a name="step-2">`3.  Enable Schema Registry - Begin Configuration ->  Essentials Package`
 
 ![s1](images/sr-1.png)
 

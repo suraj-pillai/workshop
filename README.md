@@ -364,4 +364,4 @@ Deleting the resources you created during this workshop will prevent you from in
 
 4. Delete the Cluster by going to the **Cluster Overview -> Cluster Settings** tab and then selecting **Delete cluster**
 
- 5. Delete the Environment by entering the Environment you created and then clicking on **Delete** option available on the right hand side of the page
+5. Delete the Environment by entering the Environment you created and then clicking on **Delete** option available on the right hand side of the page

@@ -46,6 +46,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 1. [Observe the data pipeline](#step-10)
 1. [Visualize the data pipeline](#step-11)
 1. [Bonus section (To be done by the instructor)](#step-12)
+1. [Clean up resources](#step-13) 
 
 
 ---
@@ -125,8 +126,8 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 
 ![cn2](images/connector-2.png)
 
-![cn3](images/connector-3.png)
-<a name="step-k">     
+<a name="step-k">
+![cn3](images/connector-3.png)    
 ```diff
 - Make sure you download the file and keep it safe; you will need this later
 ```
@@ -349,3 +350,18 @@ View how data flows through the pipeline
   
 *   Send invalid data to a topic and observe behavior
 
+---
+
+###   <a name="step-13">`13.  Clean up the resources`    
+
+Deleting the resources you created during this workshop will prevent you from incurring additional charges.
+
+1. The first item to delete is the ksqlDB application. Select the Delete button under Actions and enter the Application Name to confirm the deletion.
+
+2. Delete the MongoDB sink connector by navigating to **Connectors** in the navigation panel, clicking your connector name, navigate to _settings_,then clicking the trash can icon in the lower left and entering the connector name to confirm the deletion.
+
+3. Delete the MySQL CDC source connector by navigating to **Connectors** in the navigation panel, clicking your connector name, navigate to _settings_,then clicking the trash can icon in the lower left and entering the connector name to confirm the deletion.
+
+4. Delete the Cluster by going to the **Cluster Overview -> Cluster Settings** tab and then selecting **Delete cluster**
+
+ 5. Delete the Environment by entering the Environment you created and then clicking on **Delete** option available on the right hand side of the page

@@ -273,7 +273,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 ![cn11](images/connector-11.png)
 
 ![cn12](images/connector-12.png)    
-You had downloaded the key here (#step-k)
+[You had downloaded the keys here](#step-k)
 
 
 ![cn13](images/connector-13.png)

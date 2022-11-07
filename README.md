@@ -134,6 +134,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 
 <a name="step-k">
 ![cn3](images/connector-3.png)    
+    
 ```diff
 - Make sure you download the file and keep it safe; you will need this later
 ```

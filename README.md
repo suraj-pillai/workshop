@@ -162,7 +162,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 ![tc1](images/topic-2.png)
 
 Check the schema associated with the topic
-![sr3](images/sr-3.png)
+![sr4](images/sr-4.png)
 
 *   Insert records into tables -  
 

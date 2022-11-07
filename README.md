@@ -27,7 +27,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 
 # Architecture   
 
-![arch](images/architecture.png)
+![arch](images/architecture-1.png)
 
 <br>
 

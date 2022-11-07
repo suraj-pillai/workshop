@@ -18,7 +18,8 @@
 8. Access to https://github.com/suraj-pillai/workshop/blob/main/README.md - which has detailed workshop/lab instructions
 
 ```diff
-- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. Please use username - participant_0, password - participant_0 in the Connectors
+- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. 
+- Please use username - participant_0, password - participant_0 in the Connectors
 ```
 
 ---

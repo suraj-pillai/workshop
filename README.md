@@ -158,11 +158,8 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 
 ```diff
 - Use the following link - http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
+- Use the link to create an account and create corresponding transactions
 ``` 
- 
-```sql
-Use the link to create an account and create corresponding transactions      
-```
     
 ![web](images/web.png)
     
@@ -287,7 +284,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 
 ![cn19](images/connector-19.png)
 
-*  Execute the following command to check data in MongoDB -     
+*  Check data in MongoDB     
 <!--
 ```diff
 - text in red
@@ -299,26 +296,11 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 -->
 
 ```diff
-- In case you do not have mongosh installed the following steps would be executed by the instructor.
+- Navigate to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
+- Use "Fetch From MongoDB" tile
 ```
 
-```diff
-- (replace participant_n username below with your participant id,  password is same as participant id)
-```
-
-```sql
-mongosh "mongodb+srv://mongostreaming.whrwcfn.mongodb.net/mongodb" --apiVersion 1 --username participant_n    
-```
-
-    
-```sql
-execute ->    db.transaction_view_participant_n.find()   
-```
-    
-    
-```sql
-To find details about a particular account id, you could use - db.transaction_view_participant_n.find({ACCOUNT_ID:"ACC1"})
-```
+![webm](images/web.png)
     
 ---
 

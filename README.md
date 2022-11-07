@@ -17,6 +17,10 @@
 7. Create a Confluent Cloud account - https://www.confluent.io/confluent-cloud/tryfree/
 8. Access to https://github.com/suraj-pillai/workshop/blob/main/README.md - which has detailed workshop/lab instructions
 
+```diff
+- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. Please use username - participant_0, password - participant_0 in the Connectors
+```
+
 ---
 
 # Objective
@@ -120,7 +124,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 </div>     
     
 ```diff
-- In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. Please use username - participant_0, password - participant_0
 ```
 
 
@@ -158,7 +162,8 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 
 ```diff
 - Use the following link - http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
-- Use the link to create an account and create corresponding transactions
+- Use the link to create an account (Create Account) and create corresponding transactions (Make a Transaction)
+- Do not use the "Fetch From MongoDB" tile yet
 ``` 
     
 ![web](images/web.png)
@@ -259,7 +264,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 </div>     
     
 ```diff
--  In case you do not have the mongosh and RDS client installed please use participant_0 as username and password
+- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. Please use username - participant_0, password - participant_0
 ```
 
 ![cn10](images/connector-10.png)
@@ -297,7 +302,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 
 ```diff
 - Navigate to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
-- Use "Fetch From MongoDB" tile
+- Use the "Fetch From MongoDB" tile
 ```
 
 ![webm](images/web.png)
@@ -314,7 +319,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 
 ---
 
-###   <a name="step-11">`11.  Visualize the data pipeline`
+###   <a name="step-11">`11.  Visualize the data pipeline and schemas`
  
 View how data flows through the pipeline
     

@@ -164,8 +164,9 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 
 ```diff
 - Use the following link - http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
-- Use the link to create an account (Create Account) and create corresponding transactions (Make a Transaction)
+- Use the link to create an account ("Create Account" tile) and create corresponding transactions ("Make a Transaction" tile)
 - Do not use the "Fetch From MongoDB" tile yet
+- In case you do not have access to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 - the instructor will make the inserts into the DB ables
 ``` 
     
 ![web](images/web.png)
@@ -315,8 +316,10 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 
 *  Insert records in RDS(MySQL) and subsequently observe your MongoDB collection
 ```diff
--  In case you do not have the mongosh and RDS client installed the instructor will make changes to the DB and show the pipeline
--  You can still use ksqlDB and topics UI to verify the data flow
+-  Navigate to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
+-  Use the link to create transactions ("Make a Transaction" tile)
+-  Use the "Fetch From MongoDB" tile to get data from MongoDB
+-  You can use ksqlDB and topics UI to verify the data flow
 ```
 
 ---

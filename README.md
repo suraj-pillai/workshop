@@ -19,7 +19,7 @@
 
 ```diff
 - In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. 
-- Please use username - participant_0, password - participant_0 in the Connectors
+- Please use username - participant_0, password - participant_0 in the Connectors and modify other connector parameters with "_0"
 ```
 
 ---
@@ -125,7 +125,9 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 </div>     
     
 ```diff
-- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. Please use username - participant_0, password - participant_0
+- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 - 
+- Please use username - participant_0, password - participant_0
+- Also, use the tables - transactions_participant_0, accounts_participant_0
 ```
 
 
@@ -170,7 +172,7 @@ Check the schema associated with the topic
 - Use the following link - http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
 - Use the link to create an account ("Create Account" tile) and create corresponding transactions ("Make a Transaction" tile)
 - Do not use the "Fetch From MongoDB" tile yet
-- In case you do not have access to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 - the instructor will make the inserts into the DB ables
+- In case you do not have access to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 - the instructor will insert data into the DB tables
 ``` 
     
 ![web](images/web.png)
@@ -275,7 +277,9 @@ select * from transactions_by_accounts_tbl where account_id='<replace with actua
 </div>     
     
 ```diff
-- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. Please use username - participant_0, password - participant_0
+- In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 - 
+- Please use username - participant_0, password - participant_0
+- Also, use the Collections - transaction_view_participant_0
 ```
 
 ![cn10](images/connector-10.png)

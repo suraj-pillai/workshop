@@ -245,15 +245,19 @@ select * from transactions_360_tbl emit changes;
 
 aggregate data to show the number of transactions done in a 5 min period.   
 ```sql
-create table transactions_by_accounts_tbl with (kafka_topic='transactions_by_accounts', format='json') as select account_id, transaction_type ,count(*) as cnt from transactions_stream window tumbling (size 5 minutes) group by account_id,transaction_type;
+create table transactions_by_accounts_tbl with (kafka_topic='transactions_by_accounts', format='json') as select account_id, transaction_type ,count(*) as cnt,FORMAT_TIMESTAMP(FROM_UNIXTIME(windowstart), 'yyyy-MM-dd HH:mm:ss.SSS', 'Asia/Manila' ) windowstart_readabale,FORMAT_TIMESTAMP(FROM_UNIXTIME(windowend), 'yyyy-MM-dd HH:mm:ss.SSS', 'Asia/Manila' ) windowend_readabale from transactions_stream window tumbling (size 5 minutes) group by account_id,transaction_type EMIT CHANGES;
 ```
 
     
 ```sql
-select * from transactions_by_accounts_tbl emit CHANGES;    
+select * from transactions_by_accounts_tbl where account_id='<replace with actual account id>' emit CHANGES;    
 ```
 `(This will show the number of transactions by WITHDRAWAL/DEPOSIT. "Stop" the query once done)`
-
+```diff
+- Create transaction using the link, http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080/ and observe the output
+```
+    
+![ksql-agg](images/ksql-agg.png)
 
 ---
 

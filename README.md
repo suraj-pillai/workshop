@@ -43,7 +43,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 1. [Create ksqlDB App](#step-5)
 1. [Create Source Connector(MySQL CDC)](#step-6)
 1. [Check CDC Data](#step-7)
-1. [Create ksqlDB Streams/Tables(MySQL CDC)](#step-8)
+1. [Create ksqlDB Streams/Tables](#step-8)
 1. [Create MongoDB Sink connector](#step-9)
 1. [Observe the data pipeline](#step-10)
 1. [Visualize the data pipeline](#step-11)

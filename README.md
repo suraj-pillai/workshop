@@ -157,20 +157,14 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 *   Insert records into tables -  
 
 ```diff
-- In case you do not have RDS client installed the following steps would be executed by the instructor.
+- Use the following link - http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080
 ``` 
-
-```diff
-- (change the table names below to reflect your participant id)`      
+ 
+```sql
+Use the link to create an account and create corresponding transactions      
 ```
     
-```sql
-INSERT INTO transactions_participant_n (account_id,amount,transaction_type) VALUES ('ACC1',5000,'DEPOSIT');      
-```
- 
-```sql 
-INSERT INTO accounts_participant_n (account_id,first_name,last_name) VALUES ('ACC1','Suraj','Pillai');
-```
+![web](images/web.png)
     
 *   Check corresponding topics for records
 

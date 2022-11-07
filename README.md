@@ -132,7 +132,11 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 ![cn1](images/connector-1.png)
 
 ![cn2](images/connector-2.png)
+    
+![cn2](images/connector-2.png)
 
+![cn3](images/connector-3.png) 
+    
 <a name="step-k">
 ![cn3](images/connector-3.png)    
     

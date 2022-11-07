@@ -133,10 +133,6 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 
 ![cn2](images/connector-2.png)
     
-![cn2](images/connector-2.png)
-
-![cn3](images/connector-3.png) 
-    
 <a name="step-k">     
  
 ![cn3](images/connector-3.png)    
@@ -164,6 +160,9 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 ![tc1](images/topic-1.png)
 
 ![tc1](images/topic-2.png)
+
+Check the schema associated with the topic
+![sr3](images/sr-3.png)
 
 *   Insert records into tables -  
 
@@ -329,7 +328,7 @@ select * from transactions_by_accounts_tbl emit CHANGES;
 
 ---
 
-###   <a name="step-11">`11.  Visualize the data pipeline and schemas`
+###   <a name="step-11">`11.  Visualize the data pipeline`
  
 View how data flows through the pipeline
     

@@ -121,7 +121,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 | `DB Name`              | cdcdb                 |
 | `Username`           | participant_n (replace n with your participant id)            |
 | `Password`    | participant_n (replace n with your participant id)           |
-| `Tables` | transactions_participant_n, accounts_participant_n (replace n with your participant id)              |   
+| `Tables` | cdcdb.transactions_participant_n, cdcdb.accounts_participant_n (replace n with your participant id)              |   
 </div>     
     
 ```diff

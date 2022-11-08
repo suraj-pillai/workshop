@@ -291,7 +291,7 @@ select * from transactions_by_accounts_tbl where account_id='<replace with actua
 [You had downloaded the keys here](#step-k)     
 
 In case, there are multiple files downloaded, use the key which does NOT mention "Key for ksqlDBApp"
-![key1](images/key-1.png)  
+![key1](images/key-2.png)  
 
 
 ![cn13](images/connector-13.png)

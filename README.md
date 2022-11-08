@@ -221,8 +221,10 @@ create table account_balance_tbl with (kafka_topic='account_balance', format='js
 ```sql
 select * from account_balance_tbl emit CHANGES;  
 ```
-`(This will show the balance for the account. "Stop" the query once done)`  
+`(This will show the balance for the account. "Stop" the query once done)`
 
+![qr](images/qr.png)
+    
     
 create a stream with account details.   
 ```sql

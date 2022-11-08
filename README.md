@@ -252,6 +252,7 @@ select * from transactions_360_tbl emit changes;
 ```
 `(This will show the joined data between transactions and account - transactions will also contain a first name and a last name. "Stop" the query once done)` 
 
+![qr-2](images/qr-2.png)
 
 aggregate data to show the number of transactions done in a 5 min period.   
 ```sql
@@ -260,9 +261,11 @@ create table transactions_by_accounts_tbl with (kafka_topic='transactions_by_acc
 
     
 ```sql
-select * from transactions_by_accounts_tbl where account_id='<replace with actual account id>' emit CHANGES;    
+select * from transactions_by_accounts_tbl where account_id='ACC1' emit CHANGES;    
 ```
-`(This will show the number of transactions by WITHDRAWAL/DEPOSIT. "Stop" the query once done)`
+`(This will show the number of transactions by WITHDRAWAL/DEPOSIT. "Stop" the query once done)`     
+![qr-3](images/qr-3.png)
+    
 ```diff
 - Create transaction using the link, http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080/ and observe the output
 ```
@@ -344,6 +347,10 @@ In case, there are multiple files downloaded, use the key which does NOT mention
 -  Use the link to create transactions ("Make a Transaction" tile)
 -  Use the "Fetch From MongoDB" tile to get data from MongoDB
 -  You can use ksqlDB and topics UI to verify the data flow
+-  Execute - 
+    ```sql
+    select * from transactions_by_accounts_tbl where account_id='<replace_with_your_account_id>' emit CHANGES;    
+    ```
 ```
 
 ---

@@ -192,7 +192,10 @@ Check the schema associated with the topic
 ![k8](images/ksql-8.png) 
 
 ![k9](images/ksql-9.png) 
-
+    
+ Make sure the following property is set -    
+ ![k-a](images/ksql-auto.png)     
+    
 ```diff
 - Change the topic name (dbdata.cdcdb.transactions_participant_n) below with your participant id  
 ```

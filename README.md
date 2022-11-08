@@ -188,7 +188,7 @@ Check the schema associated with the topic
 
 ![k7](images/ksql-7.png)
 
-*   Enter the commands -   
+*   Enter the commands (commands are given below) -   
 ![k8](images/ksql-8.png) 
 
 ![k9](images/ksql-9.png) 

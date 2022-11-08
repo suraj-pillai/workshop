@@ -127,7 +127,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 ```diff
 - In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 - 
 - Please use username - participant_0, password - participant_0
-- Also, use the tables - transactions_participant_0, accounts_participant_0
+- Also, use the tables - cdcdb.transactions_participant_0, cdcdb.accounts_participant_0
 ```
 
 

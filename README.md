@@ -54,6 +54,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 1. [Visualize the data pipeline](#step-11)
 1. [Bonus section (To be done by the instructor)](#step-12)
 1. [Clean up resources](#step-13) 
+1. [Confluent Resources and Further Testing](#confluent-resources-and-further-testing)
 
 
 ---
@@ -383,3 +384,21 @@ Deleting the resources you created during this workshop will prevent you from in
 4. Delete the Cluster by going to the **Cluster Overview -> Cluster Settings** tab and then selecting **Delete cluster**
 
 5. Delete the Environment by entering the Environment you created and then clicking on **Delete** option available on the right hand side of the page
+    
+---
+    
+## <a name="confluent-resources-and-further-testing"></a>Confluent Resources and Further Testing
+
+Here are some links to check out if you are interested in further testing:
+
+* Confluent Cloud [Basics](https://docs.confluent.io/cloud/current/client-apps/cloud-basics.html)
+
+* [Quickstart](https://docs.confluent.io/cloud/current/get-started/index.html) with Confluent Cloud
+
+* Confluent Cloud ksqlDB [Quickstart](https://docs.confluent.io/cloud/current/get-started/ksql.html)
+
+* Confluent Cloud [Demos/Examples](https://docs.confluent.io/platform/current/tutorials/examples/ccloud/docs/ccloud-demos-overview.html)
+
+* ksqlDB [Tutorials](https://kafka-tutorials.confluent.io/)
+
+* Full repository of Connectors within [Confluent Hub](https://www.confluent.io/hub/)

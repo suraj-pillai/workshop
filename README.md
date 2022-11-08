@@ -347,12 +347,11 @@ In case, there are multiple files downloaded, use the key which does NOT mention
 -  Use the link to create transactions ("Make a Transaction" tile)
 -  Use the "Fetch From MongoDB" tile to get data from MongoDB
 -  You can use ksqlDB and topics UI to verify the data flow
--  Execute - 
-    ```sql
-    select * from transactions_by_accounts_tbl where account_id='<replace_with_your_account_id>' emit CHANGES;    
-    ```
+-  Execute the following to check the number and type of transactions- 
 ```
-
+```sql
+    select * from transactions_by_accounts_tbl where account_id='<replace_with_your_account_id>' emit CHANGES;    
+```
 ---
 
 ###   <a name="step-11">`11.  Visualize the data pipeline`

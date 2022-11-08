@@ -227,6 +227,9 @@ select * from account_balance_tbl emit CHANGES;
     
     
 create a stream with account details.   
+```diff
+- Change the topic name (dbdata.cdcdb.accounts_participant_n) below with your participant id  
+```
 ```sql
 create stream accounts_stream with (kafka_topic='dbdata.cdcdb.accounts_participant_1', value_format='avro');   
 ```

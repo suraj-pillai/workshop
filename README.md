@@ -399,6 +399,6 @@ Here are some links to check out if you are interested in further testing:
 
 * Confluent Cloud [Demos/Examples](https://docs.confluent.io/platform/current/tutorials/examples/ccloud/docs/ccloud-demos-overview.html)
 
-* ksqlDB [Tutorials](https://kafka-tutorials.confluent.io/)
+* ksqlDB [Tutorials](https://developer.confluent.io/tutorials/)
 
 * Full repository of Connectors within [Confluent Hub](https://www.confluent.io/hub/)

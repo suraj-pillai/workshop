@@ -202,13 +202,13 @@ Check the schema associated with the topic
     
 create transactions stream.
 ```sql
-`create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_n', value_format='avro');`    
+create stream transactions_stream with (kafka_topic='dbdata.cdcdb.transactions_participant_n', value_format='avro');   
 ```
 
     
 create new stream based on DEPOSIT/WITHDRAWAL. Also, ignore deletes in the DB table.
 ```sql
-`create stream transaction_type_check_stream with (kafka_topic='transaction_type_check', format='json') as select account_id, case when transaction_type = 'DEPOSIT' then amount else -amount end as amount from transactions_stream where __DELETED = 'false' EMIT CHANGES;` 
+create stream transaction_type_check_stream with (kafka_topic='transaction_type_check', format='json') as select account_id, case when transaction_type = 'DEPOSIT' then amount else -amount end as amount from transactions_stream where __DELETED = 'false' EMIT CHANGES; 
 ```
  
     

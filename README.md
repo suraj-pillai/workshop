@@ -8,14 +8,10 @@
 
 # Prerequisites
 
-1. Access to RDS (MySQL - streamingday.cqzooevua9cx.ap-southeast-1.rds.amazonaws.com   Port:3306)
-2. A client to access RDS (DBeaver or equivalent which can connect to a MySQL DB; you may need to download MySQL 8.0 drivers)
-3. Access to MongoDB Atlas (mongostreaming.whrwcfn.mongodb.net)
-4. Install mongosh (to access mongodb) - https://www.mongodb.com/docs/mongodb-shell/install/
-5. Access to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 (This would be required if you do not have access to steps 1-4 above)
-6. Access to Confluent Cloud
-7. Create a Confluent Cloud account - https://www.confluent.io/confluent-cloud/tryfree/
-8. Access to https://github.com/suraj-pillai/workshop/blob/main/README.md - which has detailed workshop/lab instructions
+1. Access to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 
+2. Access to Confluent Cloud
+3. Create a Confluent Cloud account - https://www.confluent.io/confluent-cloud/tryfree/
+4. Access to https://github.com/suraj-pillai/workshop/blob/main/README.md - which has detailed workshop/lab instructions
 
 ```diff
 - In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. 

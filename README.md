@@ -9,8 +9,8 @@
 # Prerequisites
 
 1. Access to http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080 
-2. Access to Confluent Cloud
-3. Create a Confluent Cloud account - https://confluent.cloud/login
+2. Access to Confluent Cloud - https://confluent.cloud/
+3. Create a Confluent Cloud account - https://www.confluent.io/confluent-cloud/tryfree/
 4. Access to https://github.com/suraj-pillai/workshop/blob/main/README.md - which has detailed workshop/lab instructions
 
 ```diff

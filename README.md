@@ -16,6 +16,7 @@
 ```diff
 - In case you do not have access to the link http://ec2-13-212-93-248.ap-southeast-1.compute.amazonaws.com:8080. 
 - Please use username - participant_0, password - participant_0 in the Connectors and modify other connector parameters with "_0" instead of "_n"
+- Otherwise, the instructor will assign each of the participants a participant id - such as participant_1, participant_2, etc
 ```
 
 ---

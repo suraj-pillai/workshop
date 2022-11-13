@@ -49,8 +49,7 @@ In this workshop you will learn how Confluent Cloud can enable you to quickly an
 1. [Create MongoDB Sink connector](#step-9)
 1. [Observe the data pipeline](#step-10)
 1. [Visualize the data pipeline](#step-11)
-1. [Bonus section (To be done by the instructor)](#step-12)
-1. [Clean up resources](#step-13) 
+1. [Clean up resources](#step-12) 
 1. [Confluent Resources and Further Testing](#confluent-resources-and-further-testing)
 
 
@@ -361,14 +360,8 @@ View how data flows through the pipeline
 ![l2](images/lineage-2.png)
     
 ---
-    
-###   <a name="step-12">`12.  Bonus section - to be done by the instructor`
-  
-*   Send invalid data to a topic and observe behavior
 
----
-
-###   <a name="step-13">`13.  Clean up the resources`    
+###   <a name="step-12">`12.  Clean up the resources`    
 
 Deleting the resources you created during this workshop will prevent you from incurring additional charges.
 
